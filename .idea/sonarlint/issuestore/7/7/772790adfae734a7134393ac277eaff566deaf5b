@@ -1,0 +1,12 @@
+
+\squid:UselessImportCheck"8Remove this unused import 'java.time.temporal.Temporal'.(Åƒ€ö
+Ssquid:UnusedPrivateMethod$")Remove this unused private "from" method.(ÜÎ•ùÿÿÿÿ
+Ysquid:UselessImportCheck
+"0Remove this unused import 'java.time.YearMonth'.(€°’Ñùÿÿÿÿ
+Gsquid:S11721"+Remove this unused method parameter "date".(–äøÂúÿÿÿÿ
+squid:S1186E"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(»×‹»øÿÿÿÿ
+\squid:UselessImportCheck"8Remove this unused import 'java.text.DateFormatSymbols'.(é”Ìñ
+Bsquid:S1172"&Remove these unused method parameters.(®Ó²øÿÿÿÿ
+Usquid:UselessImportCheck	",Remove this unused import 'java.time.Month'.(¤‚Éøÿÿÿÿ
+Bsquid:S1168A"+Return an empty collection instead of null.(¥¹ï
+squid:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«ı†¾ıÿÿÿÿ
