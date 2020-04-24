@@ -9,3 +9,7 @@ m
 =scheduler-core/src/main/java/com/achttee/model/Timetable.java,7/7/772790adfae734a7134393ac277eaff566deaf5b
 l
 <scheduler-core/src/main/java/com/achttee/model/Category.java,e/5/e5044d1a9384f2d73cde0d1ebe198c846cb62a95
+E
+scheduler-web/pom.xml,6/d/6d08535ff43c72ca2ad9cfcec09463dcc0638303
+}
+Mscheduler-web/src/main/java/com/demo/springmvc/controller/HomeController.java,9/9/99fef3b213f8f629e11192905186c2ecf0196e05
