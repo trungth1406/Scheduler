@@ -17,6 +17,9 @@ public class Activity extends AbstractNote {
     protected  ActivityStatus status;
     protected  LocalDateTime timeRange;
 
+    public Activity(String header,String content){
+        super(header,content);
+    }
 
 
 

@@ -1,8 +1,9 @@
 package com.achttee.model.abstraction;
 
-import com.achttee.model.Timetable;
+import org.joda.time.Days;
+import org.joda.time.LocalDate;
 
-import java.util.List;
+import java.util.Date;
 
 /**
  * @author trungtran
@@ -10,28 +11,36 @@ import java.util.List;
  *      AbstractNote belongs to a timetable or multiple timetable at once .
  *      These notes can be repeated over a period of time
  */
-public abstract class AbstractNote  {
+public abstract class AbstractNote implements Repeatable {
 
-    protected String name;
-    protected String content;
-    private Timetable timetable;
+    private static Integer id = 0;
+    private String name;
+    private String content;
+    private LocalDate fromTime;
+    private LocalDate toTime;
 
     protected AbstractNote(){}
 
     protected AbstractNote(String name,String content){
         this.name = name;
         this.content = content;
+        this.fromTime = LocalDate.now();
+        this.toTime = LocalDate.now();
+        id++;
     }
 
-    protected void setTimetable(Timetable timetable){
-        this.timetable = timetable;
+    protected LocalDate getFromTime() {
+        return fromTime;
     }
-
-    protected Timetable getTimetable(){
-        if(timetable == null){
-            throw new NullPointerException("Must belong to a time table");
+    protected int getTotalDays(){
+        if(fromTime == null && toTime == null){
+            return -1;
         }
-        return timetable;
+        return Days.daysBetween(fromTime,toTime).getDays();
+    }
+
+    protected Integer getId(){
+        return id;
     }
 
     protected String getName() {
@@ -50,4 +59,31 @@ public abstract class AbstractNote  {
         this.content = content;
     }
 
+    protected void setFromTime(LocalDate fromTime) {
+        this.fromTime = fromTime;
+    }
+
+    protected LocalDate getToTime() {
+        return toTime;
+    }
+
+    protected void setToTime(LocalDate toTime) {
+        this.toTime = toTime;
+    }
+
+
+
+    @Override
+    public void repeatFor(int days) {
+        if(fromTime == null && toTime == null){
+            throw new NullPointerException("No start and end date for such Note");
+        }
+        toTime = toTime.plusDays(days);
+    }
+
+    @Override
+    public String toString() {
+        return  this.getClass().getSimpleName() + "{" + "name='" + name + '\'' + ", content='" + content + '\'' +
+                ", fromTime=" + fromTime + ", toTime=" + toTime + '}';
+    }
 }

@@ -2,11 +2,15 @@ package com.achttee.model;
 
 
 import com.achttee.model.abstraction.AbstractNote;
-import com.achttee.model.abstraction.Categorizable;
 
 import java.util.HashMap;
 import java.util.Map;
 
+
+/**
+ * @author trungtran
+ * @apiNote Category for {@link Activity}
+ */
 public  class Category  {
 
     private Map<String,AbstractNote> map = new HashMap<>();

@@ -1,12 +1,8 @@
 package com.achttee.model.abstraction;
 
-public interface Repeatable<T extends  AbstractNote> {
+public interface Repeatable {
 
-     void repeat(T type,String typeOfRepeat);
-
-     boolean isRepeated();
-
-
+     void repeatFor(int days);
 
 
 }

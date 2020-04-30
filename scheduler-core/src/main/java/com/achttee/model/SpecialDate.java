@@ -1,6 +1,10 @@
 package com.achttee.model;
 
-public class SpecialDate  {
+import com.achttee.model.abstraction.AbstractNote;
 
+public class SpecialDate  extends AbstractNote {
 
+    public SpecialDate() {
+        super();
+    }
 }
