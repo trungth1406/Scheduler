@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55b61368-2f3b-49a3-8a9a-56f90199cf77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Scheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/NoteHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/NoteHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheduler-core/src/test/java/TimetableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/src/test/java/TimetableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheduler-core/target/classes/com/achttee/model/Scheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/target/classes/com/achttee/model/Scheduler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheduler-core/target/test-classes/TimetableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/target/test-classes/TimetableTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/scheduler-core/target/" />
@@ -49,7 +44,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="7" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="java" value="85" />
           <entry key="xml" value="3" />
         </counts>
@@ -58,21 +53,21 @@
         <counts>
           <entry key="CLASS" value="7" />
           <entry key="JAVA" value="85" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="2" />
-          <entry key="java" value="9322" />
+          <entry key="gitignore" value="5" />
+          <entry key="java" value="9325" />
           <entry key="xml" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9322" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="9325" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="53" />
         </counts>
       </usages-collector>
@@ -137,11 +132,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scheduler-core/src/test/java/TimetableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+            <state relative-caret-position="435">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="158" column="8" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -155,15 +159,6 @@
                 <element signature="e#6390#6391#0" expanded="true" />
                 <element signature="e#6438#6439#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/SchedulerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -250,7 +245,6 @@
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/TodoItem.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/TodoList.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Category.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/AbstractNote.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/NoteHandler.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Adjustable.java" />
@@ -258,6 +252,7 @@
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Searchable.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Scheduler.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/test/java/TimetableTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -402,7 +397,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588323680058" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588323765409" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -559,7 +554,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47039000" />
+    <option name="totallyTimeSpent" value="47180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="23" width="1632" height="973" extended-state="0" />
@@ -747,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3560">
-          <caret line="178" column="37" selection-start-line="178" selection-start-column="37" selection-end-line="178" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Categorizable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -863,8 +851,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scheduler-core/src/test/java/TimetableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        <state relative-caret-position="435">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="158" column="8" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="8" />
         </state>
       </provider>
     </entry>
