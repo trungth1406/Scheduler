@@ -14,8 +14,6 @@ Mscheduler-web/src/main/java/com/demo/springmvc/controller/HomeController.java,
 |
 Lscheduler-core/src/main/java/com/achttee/model/abstraction/AbstractNote.java,4/c/4ccc325e25d327fa1efca18141c790076884c12b
 z
-Jscheduler-core/src/main/java/com/achttee/model/abstraction/Adjustable.java,6/4/647d742e4fa0912e3ae67311ca172cf3e1e6b046
-z
 Jscheduler-core/src/main/java/com/achttee/model/abstraction/Repeatable.java,8/2/82335ec083afbbf41462f76f7d9945f1da84cfbc
 m
 =scheduler-core/src/main/java/com/achttee/model/Scheduler.java,d/b/dbb27129c215430587feac2c209499aa5035e219
@@ -35,3 +33,7 @@ k
 Kscheduler-core/src/main/java/com/achttee/model/constant/ActivityStatus.java,b/1/b1fec6349383478f2fa495a40f5ea0332519dbc9
 l
 <scheduler-core/src/main/java/com/achttee/model/TodoItem.java,b/8/b8c772984be0d626f28ca6d1fd2c3be46c1136df
+{
+Kscheduler-core/src/main/java/com/achttee/model/abstraction/NoteHandler.java,8/f/8fd3425a30773a2fba119e9582346632e1edf2fb
+x
+Hscheduler-core/src/main/java/com/achttee/model/abstraction/TodoList.java,5/6/56f7ccea68f6445db66ba3c7979b9557f1a0c6f4
