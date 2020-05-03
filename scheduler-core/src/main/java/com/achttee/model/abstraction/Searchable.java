@@ -4,10 +4,11 @@ import org.joda.time.LocalDate;
 
 import java.util.List;
 
-public interface Searchable<D ,K ,V extends  AbstractNote> {
+public interface Searchable<D ,K ,V> {
 
-    List<V> searchBy(D key,V clazz) throws Exception;
+    List<V> searchAll(D key,String className) throws Exception;
 
-    V searchBy(D time,K key,V clazz);
+    V searchBy(D time, String className , K id) throws NoSuchMethodException;
+
 
 }

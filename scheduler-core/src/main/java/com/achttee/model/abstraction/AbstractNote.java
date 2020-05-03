@@ -4,6 +4,9 @@ import org.joda.time.Days;
 import org.joda.time.LocalDate;
 
 import java.util.Date;
+import java.util.InvalidPropertiesFormatException;
+import java.util.Objects;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author trungtran
@@ -13,7 +16,8 @@ import java.util.Date;
  */
 public abstract class AbstractNote implements Repeatable {
 
-    private static Integer id = 0;
+    private  static  AtomicInteger idIncrement = new AtomicInteger(1);
+    private Integer id;
     private String name;
     private String content;
     private LocalDate fromTime;
@@ -26,12 +30,14 @@ public abstract class AbstractNote implements Repeatable {
         this.content = content;
         this.fromTime = LocalDate.now();
         this.toTime = LocalDate.now();
-        id++;
+        this.id = handleId();
     }
 
-    protected LocalDate getFromTime() {
-        return fromTime;
+    private static synchronized  int handleId(){
+        return idIncrement.getAndIncrement();
     }
+
+
     protected int getTotalDays(){
         if(fromTime == null && toTime == null){
             return -1;
@@ -39,51 +45,80 @@ public abstract class AbstractNote implements Repeatable {
         return Days.daysBetween(fromTime,toTime).getDays();
     }
 
-    protected Integer getId(){
+    public Integer getId(){
         return id;
     }
 
-    protected String getName() {
+    public String getName() {
         return name;
     }
 
-    protected void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    protected String getContent() {
+    public String getContent() {
         return content;
     }
 
-    protected void setContent(String content) {
+    public void setContent(String content) {
         this.content = content;
     }
 
-    protected void setFromTime(LocalDate fromTime) {
+    public void setFromTime(LocalDate fromTime) {
         this.fromTime = fromTime;
     }
 
-    protected LocalDate getToTime() {
+    public LocalDate getFromTime() {
+        return fromTime;
+    }
+
+    public LocalDate getToTime() {
         return toTime;
     }
 
-    protected void setToTime(LocalDate toTime) {
+    public void setToTime(LocalDate toTime) {
         this.toTime = toTime;
     }
 
 
 
     @Override
-    public void repeatFor(int days) {
+    public void repeatFor(int days) throws InvalidPropertiesFormatException {
         if(fromTime == null && toTime == null){
             throw new NullPointerException("No start and end date for such Note");
+        }
+        if (days < 0){
+            throw new InvalidPropertiesFormatException("Days of reapeat must greater than 0");
         }
         toTime = toTime.plusDays(days);
     }
 
     @Override
     public String toString() {
-        return  this.getClass().getSimpleName() + "{" + "name='" + name + '\'' + ", content='" + content + '\'' +
-                ", fromTime=" + fromTime + ", toTime=" + toTime + '}';
+        return  getClass().getSimpleName() + "{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", content='" + content + '\'' +
+                ", fromTime=" + fromTime +
+                ", toTime=" + toTime +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        AbstractNote that = (AbstractNote) o;
+        return Objects.equals(id, that.id) &&
+                Objects.equals(name, that.name) &&
+                Objects.equals(content, that.content) &&
+                Objects.equals(fromTime, that.fromTime) &&
+                Objects.equals(toTime, that.toTime);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, content, fromTime, toTime);
     }
 }

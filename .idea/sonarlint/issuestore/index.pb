@@ -37,3 +37,10 @@ l
 Kscheduler-core/src/main/java/com/achttee/model/abstraction/NoteHandler.java,8/f/8fd3425a30773a2fba119e9582346632e1edf2fb
 x
 Hscheduler-core/src/main/java/com/achttee/model/abstraction/TodoList.java,5/6/56f7ccea68f6445db66ba3c7979b9557f1a0c6f4
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+z
+Jscheduler-core/src/main/java/com/achttee/model/abstraction/Searchable.java,4/1/41a0d145b186a5e7eaa8ff9400e1eef5bbb9d512
+€
+Pscheduler-core/src/main/java/com/achttee/model/abstraction/SchedulerHandler.java,2/9/2991fec096c0362cc6424567a27712418429ae7f

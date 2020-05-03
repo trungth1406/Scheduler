@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55b61368-2f3b-49a3-8a9a-56f90199cf77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/831d2a3b5fb64cc11a04517302d9ef759144eb58" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/831d2a3b5fb64cc11a04517302d9ef759144eb58" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d115356e8cf283c5e1f7b2d76db676c212926845" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d115356e8cf283c5e1f7b2d76db676c212926845" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/dbb27129c215430587feac2c209499aa5035e219" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/dbb27129c215430587feac2c209499aa5035e219" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/SpecialDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/SpecialDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/AbstractNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/AbstractNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Repeatable.java" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Repeatable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/SchedulerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/SchedulerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Searchable.java" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Searchable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler-core/src/test/java/TimetableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/src/test/java/TimetableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler-core/target/classes/com/achttee/model/Scheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/target/classes/com/achttee/model/Scheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler-core/target/classes/com/achttee/model/SpecialDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/target/classes/com/achttee/model/SpecialDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler-core/target/classes/com/achttee/model/abstraction/AbstractNote.class" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/target/classes/com/achttee/model/abstraction/AbstractNote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler-core/target/classes/com/achttee/model/abstraction/Repeatable.class" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler-core/target/classes/com/achttee/model/abstraction/Repeatable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler-core/target/test-classes/TimetableTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/scheduler-core/target/" />
@@ -17,16 +33,18 @@
     <session id="-56090473">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="3" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.13" value="4" />
+          <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="3" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="2" />
@@ -38,21 +56,21 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="7" />
+          <entry key="class" value="14" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="85" />
+          <entry key="java" value="112" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="85" />
+          <entry key="CLASS" value="14" />
+          <entry key="JAVA" value="112" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="3" />
         </counts>
@@ -60,13 +78,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="5" />
-          <entry key="java" value="9325" />
+          <entry key="java" value="12958" />
           <entry key="xml" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9325" />
+          <entry key="JAVA" value="12958" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="53" />
         </counts>
@@ -82,11 +100,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Scheduler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#2425#2426#0" expanded="true" />
+                <element signature="e#2473#2474#0" expanded="true" />
+                <element signature="e#2533#2534#0" expanded="true" />
+                <element signature="e#2595#2596#0" expanded="true" />
+                <element signature="e#2778#2779#0" expanded="true" />
+                <element signature="e#2843#2844#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/AbstractNote.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-924">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <folding>
+                <element signature="e#994#995#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#1471#1472#0" expanded="true" />
+                <element signature="e#1511#1512#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Searchable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/SchedulerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scheduler-core/src/test/java/TimetableTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/QuickNote.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="200">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="e#560#561#0" expanded="true" />
                 <element signature="e#612#613#0" expanded="true" />
@@ -98,106 +184,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Repeatable.java">
+        <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/SpecialDate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Scheduler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="119" column="28" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#710#711#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#977#978#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
-                <element signature="e#1193#1194#0" expanded="true" />
-                <element signature="e#3342#3343#0" expanded="true" />
-                <element signature="e#3390#3391#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scheduler-core/src/test/java/TimetableTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="158" column="8" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Date.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="131" column="35" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="35" />
-              <folding>
-                <element signature="e#6390#6391#0" expanded="true" />
-                <element signature="e#6438#6439#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Categorizable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/NoteHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/AbstractNote.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="65" column="13" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Searchable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -208,10 +198,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LocalDate</find>
+      <find>DateTime.now()</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>LocalDate.now()</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -239,22 +238,28 @@
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/constant/MonthName.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Repeatable.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Activity.java" />
-        <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/SpecialDate.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/QuickNote.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/util/DateUtil.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/TodoItem.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/TodoList.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Category.java" />
-        <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/AbstractNote.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/NoteHandler.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Adjustable.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/SpecialDate.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/SchedulerHandler.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Searchable.java" />
+        <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/exception/ClassException.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Scheduler.java" />
+        <option value="$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/AbstractNote.java" />
         <option value="$PROJECT_DIR$/scheduler-core/src/test/java/TimetableTest.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="TimetableTest.testSearch" />
+    </enabled-run-configurations>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -270,9 +275,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="18" />
     <option name="y" value="23" />
-    <option name="width" value="1632" />
+    <option name="width" value="1680" />
     <option name="height" value="973" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -284,7 +288,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -391,13 +394,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="test&#9;FILE&#9;file:///Users/trungtran/Desktop/Projects/scheduler-app/scheduler-core/src/test/java/TimetableTest.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588323765409" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588521386780" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -423,13 +428,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TimetableTest.testScheduler">
-    <configuration name="TimetableTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TimetableTest">
+    <configuration name="TimetableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="scheduler-core" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TimetableTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -444,38 +447,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimetableTest.testScheduler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimetableTest.testSchedulerInit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="scheduler-core" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TimetableTest" />
-      <option name="METHOD_NAME" value="testScheduler" />
+      <option name="METHOD_NAME" value="testSchedulerInit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimetableTest.testTimetable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimetableTest.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="scheduler-core" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TimetableTest" />
-      <option name="METHOD_NAME" value="testTimetable" />
+      <option name="METHOD_NAME" value="testSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimetableTest.testSearchAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scheduler-core" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TimetableTest" />
+      <option name="METHOD_NAME" value="testSearchAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TimetableTest.testTimetable" />
+      <item itemvalue="JUnit.TimetableTest.testSearch" />
       <item itemvalue="JUnit.TimetableTest.testRepeat" />
-      <item itemvalue="JUnit.TimetableTest.testScheduler" />
-      <item itemvalue="JUnit.TimetableTest.test" />
+      <item itemvalue="JUnit.TimetableTest.testSearchAll" />
+      <item itemvalue="JUnit.TimetableTest.testSchedulerInit" />
+      <item itemvalue="JUnit.TimetableTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TimetableTest.testScheduler" />
-        <item itemvalue="JUnit.TimetableTest.test" />
+        <item itemvalue="JUnit.TimetableTest" />
+        <item itemvalue="JUnit.TimetableTest.testSearch" />
+        <item itemvalue="JUnit.TimetableTest.testSearchAll" />
         <item itemvalue="JUnit.TimetableTest.testRepeat" />
-        <item itemvalue="JUnit.TimetableTest.testTimetable" />
+        <item itemvalue="JUnit.TimetableTest.testSchedulerInit" />
       </list>
     </recent_temporary>
   </component>
@@ -518,49 +533,53 @@
       <workItem from="1588235812564" duration="1170000" />
       <workItem from="1588254651223" duration="9597000" />
       <workItem from="1588318371964" duration="257000" />
+      <workItem from="1588346472322" duration="10276000" />
+      <workItem from="1588511209940" duration="76000" />
+      <workItem from="1588512180270" duration="1043000" />
+      <workItem from="1588513271110" duration="6541000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TimetableTest_testScheduler - 2020.05.01 at 00h 42m 47s.xml">
-      <configuration name="TimetableTest.testScheduler" configurationId="JUnit" />
+    <history-entry file="TimetableTest_testSearch - 2020.05.03 at 22h 40m 33s.xml">
+      <configuration name="TimetableTest.testSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimetableTest_testScheduler - 2020.05.01 at 00h 43m 15s.xml">
-      <configuration name="TimetableTest.testScheduler" configurationId="JUnit" />
+    <history-entry file="TimetableTest - 2020.05.03 at 22h 40m 56s.xml">
+      <configuration name="TimetableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimetableTest_testScheduler - 2020.05.01 at 15h 20m 16s.xml">
-      <configuration name="TimetableTest.testScheduler" configurationId="JUnit" />
+    <history-entry file="TimetableTest - 2020.05.03 at 22h 43m 25s.xml">
+      <configuration name="TimetableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimetableTest_testScheduler - 2020.05.01 at 15h 26m 31s.xml">
-      <configuration name="TimetableTest.testScheduler" configurationId="JUnit" />
+    <history-entry file="TimetableTest - 2020.05.03 at 22h 45m 58s.xml">
+      <configuration name="TimetableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimetableTest_testScheduler - 2020.05.01 at 15h 36m 10s.xml">
-      <configuration name="TimetableTest.testScheduler" configurationId="JUnit" />
+    <history-entry file="TimetableTest_testSearch - 2020.05.03 at 22h 46m 40s.xml">
+      <configuration name="TimetableTest.testSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimetableTest_testScheduler - 2020.05.01 at 15h 36m 15s.xml">
-      <configuration name="TimetableTest.testScheduler" configurationId="JUnit" />
+    <history-entry file="TimetableTest_testSearch - 2020.05.03 at 22h 50m 40s.xml">
+      <configuration name="TimetableTest.testSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimetableTest_testScheduler - 2020.05.01 at 15h 36m 46s.xml">
-      <configuration name="TimetableTest.testScheduler" configurationId="JUnit" />
+    <history-entry file="TimetableTest - 2020.05.03 at 22h 50m 45s.xml">
+      <configuration name="TimetableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimetableTest_testScheduler - 2020.05.01 at 15h 39m 09s.xml">
-      <configuration name="TimetableTest.testScheduler" configurationId="JUnit" />
+    <history-entry file="TimetableTest - 2020.05.03 at 22h 51m 12s.xml">
+      <configuration name="TimetableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimetableTest_testScheduler - 2020.05.01 at 15h 40m 00s.xml">
-      <configuration name="TimetableTest.testScheduler" configurationId="JUnit" />
+    <history-entry file="TimetableTest - 2020.05.03 at 22h 52m 27s.xml">
+      <configuration name="TimetableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimetableTest_testScheduler - 2020.05.01 at 15h 41m 47s.xml">
-      <configuration name="TimetableTest.testScheduler" configurationId="JUnit" />
+    <history-entry file="TimetableTest - 2020.05.03 at 22h 54m 14s.xml">
+      <configuration name="TimetableTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47180000" />
+    <option name="totallyTimeSpent" value="65426000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="23" width="1632" height="973" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32578617" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34432235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -571,13 +590,13 @@
       <window_info id="Job Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42111236" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.21793416" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2724177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.368899" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3291714" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3166856" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3166856" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="10" weight="0.3291714" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -601,6 +620,33 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Scheduler.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Scheduler.java</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>getNotesBy(dateType,className)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -675,35 +721,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="327" selection-start-line="327" selection-end-line="327" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/SchedulerHandler.java" />
     <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -728,38 +749,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/SpecialDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/util/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Categorizable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/NoteHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/AbstractNote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -770,17 +763,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/NoteHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="131" column="35" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Categorizable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.6/joda-time-2.10.6.jar!/org/joda/time/base/AbstractDateTime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.6/joda-time-2.10.6.jar!/org/joda/time/base/BaseDateTime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.6/joda-time-2.10.6.jar!/org/joda/time/DateTime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="122" column="20" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.6/joda-time-2.10.6.jar!/org/joda/time/LocalDate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.6/joda-time-2.10.6.jar!/org/joda/time/base/BaseLocal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.6/joda-time-2.10.6.jar!/org/joda/time/base/AbstractPartial.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.6/joda-time-2.10.6.jar!/org/joda/time/format/DateTimeFormatter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Repeatable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="80">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/SpecialDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/QuickNote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="200">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="e#560#561#0" expanded="true" />
             <element signature="e#612#613#0" expanded="true" />
@@ -790,76 +888,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.6/joda-time-2.10.6.jar!/org/joda/time/LocalDate.class">
+    <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/exception/ClassException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Date.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="131" column="35" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="35" />
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding>
-            <element signature="e#6390#6391#0" expanded="true" />
-            <element signature="e#6438#6439#0" expanded="true" />
+            <element signature="e#27303#27304#0" expanded="true" />
+            <element signature="e#27354#27355#0" expanded="true" />
+            <element signature="e#27585#27586#0" expanded="true" />
+            <element signature="e#27628#27629#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="327" selection-start-line="327" selection-end-line="327" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/SchedulerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="220">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/Searchable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="160">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Scheduler.java">
+    <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/abstraction/AbstractNote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="119" column="28" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
+        <state relative-caret-position="-924">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#3342#3343#0" expanded="true" />
-            <element signature="e#3390#3391#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1471#1472#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scheduler-core/src/test/java/TimetableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="362">
+          <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/scheduler-core/src/main/java/com/achttee/model/Scheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="158" column="8" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="8" />
+        <state relative-caret-position="78">
+          <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#2425#2426#0" expanded="true" />
+            <element signature="e#2473#2474#0" expanded="true" />
+            <element signature="e#2533#2534#0" expanded="true" />
+            <element signature="e#2595#2596#0" expanded="true" />
+            <element signature="e#2778#2779#0" expanded="true" />
+            <element signature="e#2843#2844#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

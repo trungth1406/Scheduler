@@ -1,8 +1,2 @@
 
-Isquid:S1168+"+Return an empty collection instead of null.(¥¹ï8–¬Ú€œ.
-Ÿsquid:S1186\"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Î¶î°8 ÿ£áœ.
-Nsquid:S1172*"+Remove this unused method parameter "date".(¢³‚úşÿÿÿÿ8ôÔ¯Şœ.
-Isquid:S1172",Remove this unused method parameter "notes".(‡îÑo8§ŞÈä›.
-Jsquid:S11724",Remove this unused method parameter "month".(ü”Õê8ôÔ¯Şœ.
-Isquid:S11685"+Return an empty collection instead of null.(¥¹ï8î²ø›.
-Dsquid:S1172\"&Remove these unused method parameters.(Î¶î°8‡¼¥áœ.
+Osquid:S1172",Remove this unused method parameter "notes".(õ·ôúÿÿÿÿ8ÓüıŠ.
